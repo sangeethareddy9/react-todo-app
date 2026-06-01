@@ -1,16 +1,79 @@
-# React + Vite
+# Smart Todo Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Todo List application built using React.js. The application helps users manage daily tasks efficiently with features such as task categorization, priority management, search functionality, completion tracking, and local storage support.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Add new tasks
+* Add task descriptions
+* Categorize tasks (Study, Work, Personal)
+* Set task priority (High, Medium, Low)
+* Search tasks instantly
+* Mark tasks as completed
+* Undo completed tasks
+* Delete tasks
+* View Total, Completed, and Pending task counts
+* Local Storage integration for data persistence
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* JavaScript (ES6)
+* HTML5
+* CSS3
+* Vite
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+├── App.jsx
+├── TodoList.jsx
+├── App.css
+├── main.jsx
+
+## Installation
+
+1. Clone the repository:
+
+git clone https://github.com/sangeethareddy9/react-todo-app.git
+
+2. Navigate to the project folder:
+
+cd react-todo-app
+
+3. Install dependencies:
+
+npm install
+
+4. Run the application:
+
+npm run dev
+
+5. Open the browser and visit:
+
+http://localhost:5173
+
+## Learning Outcomes
+
+This project demonstrates:
+
+* React Functional Components
+* useState Hook
+* useEffect Hook
+* Event Handling
+* Conditional Rendering
+* Array Methods (map, filter)
+* Local Storage API
+* Component-Based Development
+
+## Future Enhancements
+
+* Edit existing tasks
+* Dark Mode
+* Due Date functionality
+* Task Sorting
+* Responsive mobile design
+
+## Author
+
+Sangeetha Chirla
